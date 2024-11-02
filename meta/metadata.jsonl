@@ -1,0 +1,188 @@
+{
+    "customers": {
+        "schema": [
+            {
+                "column": "customernumber",
+                "data_type": "int",
+                "comment": null
+            },
+            {
+                "column": "customername",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "contactlastname",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "contactfirstname",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "phone",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "addressline1",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "addressline2",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "city",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "state",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "postalcode",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "country",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "salesrepemployeenumber",
+                "data_type": "int",
+                "comment": null
+            },
+            {
+                "column": "creditlimit",
+                "data_type": "string",
+                "comment": null
+            }
+        ]
+    },
+    "orderdetails": {
+        "schema": [
+            {
+                "column": "ordernumber",
+                "data_type": "int",
+                "comment": null
+            },
+            {
+                "column": "productcode",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "quantityordered",
+                "data_type": "int",
+                "comment": null
+            },
+            {
+                "column": "priceeach",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "orderlinenumber",
+                "data_type": "int",
+                "comment": null
+            }
+        ]
+    },
+    "orders": {
+        "schema": [
+            {
+                "column": "ordernumber",
+                "data_type": "int",
+                "comment": null
+            },
+            {
+                "column": "orderdate",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "requireddate",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "shippeddate",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "status",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "comments",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "customernumber",
+                "data_type": "int",
+                "comment": null
+            }
+        ]
+    },
+    "products": {
+        "schema": [
+            {
+                "column": "productcode",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "productname",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "productline",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "productscale",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "productvendor",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "productdescription",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "quantityinstock",
+                "data_type": "int",
+                "comment": null
+            },
+            {
+                "column": "buyprice",
+                "data_type": "string",
+                "comment": null
+            },
+            {
+                "column": "msrp",
+                "data_type": "string",
+                "comment": null
+            }
+        ]
+    }
+}

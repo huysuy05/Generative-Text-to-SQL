@@ -1,0 +1,5 @@
+python~=3.12.4
+pyspark~=3.5.1
+requests~=2.26.0
+PyHive~=0.7.0
+flask~=3.0.0

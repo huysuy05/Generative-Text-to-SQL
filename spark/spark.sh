@@ -1,0 +1,1 @@
+docker exec -it spark-master bash -c "spark-submit collect_metadata.py"

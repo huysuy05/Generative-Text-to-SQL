@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text-to-SQL Project</title>
+    <link rel="stylesheet" type="text/css" href="script.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="header">Text to SQL Project</h1>
+    <div class="main-container">
+      <div class="schema-container">
+        <h2>Set Schema</h2>
+        <form id="schema-form">
+          <label for="schema">Schema Text:</label>
+          <textarea id="schema" name="schema" rows="10" cols="50"></textarea>
+          <button
+            type="submit"
+            id="setSchemaButton"
+            class="btn btn-primary input-button"
+          >
+            Set Schema
+          </button>
+        </form>
+      </div>
+      <div class="chat-container" id="chat-container-id">
+        <div class="chat-box" id="chat-box-id">
+          <!-- Include chat messages here -->
+        </div>
+        <div class="input-area">
+          <div class="executed-query" id="executed-query-id">
+            <textarea
+              id="textInput"
+              class="form-control input-text"
+              name="message"
+              placeholder="Type Your Message Here"
+              maxlength="5000"
+            ></textarea>
+            <button
+              id="generateQueryButton"
+              class="btn btn-primary input-button"
+            >
+              Generate Query
+            </button>
+          </div>
+          <form class="user-input">
+            <textarea
+              id="executed-query-content"
+              class="form-control input-text"
+              placeholder="Generated Query"
+              readonly
+            ></textarea>
+            <button
+              id="executeQueryButton"
+              class="btn btn-primary input-button"
+            >
+              Execute Query
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

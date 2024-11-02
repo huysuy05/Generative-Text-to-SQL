@@ -1,0 +1,50 @@
+Schema for table customers:
+col_name data_type comment
+customerNumber int None
+customerName string None
+contactLastName string None
+contactFirstName string None
+phone string None
+addressLine1 string None
+addressLine2 string None
+city string None
+state string None
+postalCode string None
+country string None
+salesRepEmployeeNumber int None
+creditLimit string None
+
+
+Schema for table orderdetails:
+col_name data_type comment
+orderNumber int None
+productCode string None
+quantityOrdered int None
+priceEach string None
+orderLineNumber int None
+
+
+Schema for table orders:
+col_name data_type comment
+orderNumber int None
+orderDate string None
+requiredDate string None
+shippedDate string None
+status string None
+comments string None
+customerNumber int None
+
+
+Schema for table products:
+col_name data_type comment
+productCode string None
+productName string None
+productLine string None
+productScale string None
+productVendor string None
+productDescription string None
+quantityInStock int None
+buyPrice string None
+MSRP string None
+
+
