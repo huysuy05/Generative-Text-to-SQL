@@ -3,7 +3,7 @@ import json
 from nl2sql.extract_sql import *
 import os
 import openai
-OPENROUTER_API_KEY = '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'
+OPENROUTER_API_KEY = ''
 openai.api_base = "https://openrouter.ai/api/v1"
 openai.api_key = OPENROUTER_API_KEY
 
